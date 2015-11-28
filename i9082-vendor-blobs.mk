@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9082/proprietary/bin/vclmk:system/bin/vclmk \
     vendor/samsung/i9082/proprietary/bin/vcos-version:system/bin/vcos-version \
     vendor/samsung/i9082/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/samsung/i9082/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/i9082/proprietary/etc/camera_info.ini:system/etc/camera_info.ini \
     vendor/samsung/i9082/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
     vendor/samsung/i9082/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
@@ -63,21 +62,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9082/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03007.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03007.so \
     vendor/samsung/i9082/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
     vendor/samsung/i9082/proprietary/lib/lib_SoundAlive_V01013n.so:system/lib/lib_SoundAlive_V01013n.so \
-    vendor/samsung/i9082/proprietary/lib/libaacdecoderwrapper.so:system/lib/libaacdecoderwrapper.so \
     vendor/samsung/i9082/proprietary/lib/libat.so:system/lib/libat.so \
     vendor/samsung/i9082/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
     vendor/samsung/i9082/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmaacenc.so:system/lib/libbrcmaacenc.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmamrnbaridec.so:system/lib/libbrcmamrnbaridec.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so \
     vendor/samsung/i9082/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmheaacdecoder.so:system/lib/libbrcmheaacdecoder.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmmp3dec.so:system/lib/libbrcmmp3dec.so \
-    vendor/samsung/i9082/proprietary/lib/libbrcmmp3enc.so:system/lib/libbrcmmp3enc.so \
-    vendor/samsung/i9082/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
-    vendor/samsung/i9082/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
     vendor/samsung/i9082/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/i9082/proprietary/lib/libbufmgmt.so:system/lib/libbufmgmt.so \
     vendor/samsung/i9082/proprietary/lib/libbufpool.so:system/lib/libbufpool.so \
@@ -95,14 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9082/proprietary/lib/libmmal_components.so:system/lib/libmmal_components.so \
     vendor/samsung/i9082/proprietary/lib/libmmal_util.so:system/lib/libmmal_util.so \
     vendor/samsung/i9082/proprietary/lib/libmmal_vc.so:system/lib/libmmal_vc.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.aac.encoder.so:system/lib/libOMX.brcm.audio.aac.encoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.amrnb.decoder.so:system/lib/libOMX.brcm.audio.amrnb.decoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.amrnb.encoder.so:system/lib/libOMX.brcm.audio.amrnb.encoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.amrwb.decoder.so:system/lib/libOMX.brcm.audio.amrwb.decoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.amrwb.encoder.so:system/lib/libOMX.brcm.audio.amrwb.encoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.mp3.decoder.so:system/lib/libOMX.brcm.audio.mp3.decoder.so \
-    vendor/samsung/i9082/proprietary/lib/libOMX.brcm.audio.mp3.encoder.so:system/lib/libOMX.brcm.audio.mp3.encoder.so \
     vendor/samsung/i9082/proprietary/lib/libomxmmal.so:system/lib/libomxmmal.so \
     vendor/samsung/i9082/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/i9082/proprietary/lib/librpc.so:system/lib/librpc.so \
@@ -117,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9082/proprietary/lib/libSoundAlive_VSP_ver312a.so:system/lib/libSoundAlive_VSP_ver312a.so \
     vendor/samsung/i9082/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
     vendor/samsung/i9082/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/i9082/proprietary/lib/libstagefrighthw_a.so:system/lib/libstagefrighthw_a.so \
     vendor/samsung/i9082/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
     vendor/samsung/i9082/proprietary/lib/libtvservice.so:system/lib/libtvservice.so \
     vendor/samsung/i9082/proprietary/lib/libtvservice_binder.so:system/lib/libtvservice_binder.so \
@@ -129,10 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9082/proprietary/lib/libvcos.so:system/lib/libvcos.so \
     vendor/samsung/i9082/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
     vendor/samsung/i9082/proprietary/lib/libvcsm.so:system/lib/libvcsm.so \
-    vendor/samsung/i9082/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    vendor/samsung/i9082/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/i9082/proprietary/lib/libWFC.so:system/lib/libWFC.so \
-    vendor/samsung/i9082/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/i9082/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/i9082/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
     vendor/samsung/i9082/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
@@ -142,11 +118,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/i9082/proprietary/vendor/lib/hw/camera.capri.so:system/vendor/lib/hw/camera.capri.so \
     vendor/samsung/i9082/proprietary/vendor/lib/hw/gralloc.capri.so:system/vendor/lib/hw/gralloc.capri.so \
     vendor/samsung/i9082/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/hw/power.capri.so:system/vendor/lib/hw/power.capri.so \
-    vendor/samsung/i9082/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/i9082/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/i9082/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so
